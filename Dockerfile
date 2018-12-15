@@ -26,7 +26,7 @@ RUN add-apt-repository -y ppa:ondrej/php \
 RUN apt -y install openjdk-8-jdk
 
     # Python 2 & 3
-RUN apt -y install python python-pip python3 python3-pip
+RUN apt -y install python python-pip python3 python3-pip python3.7
 
     # C Sharp & .NET
 RUN apt -y install mono-runtime
